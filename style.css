@@ -28,24 +28,23 @@ h2 {
   margin: 20px 0;
 }
 
-.menu-section{
+.menu-section, .p{
   margin: 30px auto;
   max-width: 700px;
   text-align: left;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
+  margin-top: 0;
+  color: maroon;
 }
 
-.prawns, .vegetable{
+.prawns, .vegetable, .beef, .chicken, .chocolate, .fruit, .fresh, .cappuccino{
   display: flex;
   justify-content: space-between;
 
 }
-.prawns_p, .vegetable_p {
-  margin-top: 0;
-  
-}
+
 
 
 form input, form textarea, form button {
